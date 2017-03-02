@@ -48,4 +48,8 @@ class AddressBook
 		return nil			
 	end
 
+	def raze
+		@entries = []
+	end
+
 end
